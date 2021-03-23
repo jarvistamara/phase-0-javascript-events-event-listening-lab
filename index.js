@@ -5,3 +5,8 @@ function addingEventListener() {
     return "clicked"
   });
 }
+
+const input2 = document.getElementById('input2');
+input2.addEventListener('click', function() {
+  alert('I was clicked!');
+}); 
